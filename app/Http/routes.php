@@ -21,3 +21,5 @@ Route::get('contact','TestController@number');
 
 
 Route::post('savearticle','HomeController@savearticle');
+
+Route::post('saveevent','HomeController@saveevent');
